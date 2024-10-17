@@ -1,0 +1,104 @@
+a:link {
+    color: #dbce84;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #CE4863;
+}
+
+nav {
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    word-spacing: 1vw;
+}
+
+body {
+    background-color: #00242C;
+}
+
+.img1 {
+    border-radius:0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 55vh;
+    object-fit:cover;
+    object-position: 50% 40%;
+}
+
+.about {
+    background-color: #dbce84;
+    border-radius:20px 20px 0 0;
+    width: 100vw;
+    padding: 40px 0 20px 0;
+    text-align: center;
+    
+}
+
+#letme {
+    color:#00242C;
+    font-family: "Bungee", sans-serif;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+
+#intro {
+    color:#00242C;
+    padding: 10px 20vw 10px 20vw;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    overflow: hidden;
+  }
+
+  .scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+  }
+  
+  .scroll div {
+    display: flex;
+    gap: 2em;
+  }
+
+  .scroll h1 {
+    background: #00242C;
+    color: #dbce84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bungee", sans-serif;
+    font-size: 5vw;
+    letter-spacing:1.5vw;
+    margin: 5px 10px 5px 10px;
+}
+  
+  .LeftToRight {
+    animation: LeftToRight 7s infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes  LeftToRight {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  footer {
+    color: #dbce84;
+    margin: 0 0 0 30px;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    word-spacing: 1vw;
+  }
